@@ -1,0 +1,54 @@
+@media (max-width:900px) {
+    .button__orange {
+        display: none;
+    }
+
+    .up {
+        position: absolute;
+        right:0;
+        top: 0;
+        width: 100vw;
+        background: #000;
+        display: block;
+        padding-top: 100px;
+        transition: transform .5s ease;
+    }
+
+    .header__burger-button {
+        display: block;
+        margin-left: 5%;
+        z-index: 1;
+    }
+
+    .links {
+        color: #FFF;
+        font-size: calc(21px + 6 * (100vw/900));
+        display: block;
+        padding: 10px 5% 5% 0%;
+        text-align: center;
+    }
+
+    .links::after {
+        display: none;
+    }
+
+    .links:hover {
+        color: #696871;
+    }
+
+    .links:active {
+        color: #696871;
+    }
+
+    .header {
+        justify-content: space-between;
+    }
+
+    .logo {
+        margin-right: 5%;
+    }
+
+    .header.open .up {
+        transform: translateX(-100%);
+    }
+}

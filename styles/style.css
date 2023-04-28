@@ -1,0 +1,110 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+}
+
+.up {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    /* font-size: 15px; */
+    font-size: calc(10px + 5 * (100vw / 1440));
+}
+
+.types {
+    list-style-type: none;
+}
+
+.links {
+    text-decoration: none;
+    --hovered-color: #5454D4;
+    transition: color .2s ease;
+    color: #696871;
+    position: relative;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.links::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    left: 0;
+    bottom: -7px;
+    background: var(--hovered-color);
+    height: 2px;
+    transition: width .3s ease;
+}
+
+.links:hover::after {
+    width: 100%;
+}
+
+.links:hover {
+    color: #000;
+}
+
+.links:active {
+    color: #5454D4;
+
+}
+
+.header__burger-button {
+    display: none;
+    position: relative;
+    border: none;
+    background: #000;
+    width: 50px;
+    height: 40px;
+}
+
+.header__burger-button .burger__buttons {
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    background: #FFF;
+    border-radius: 10px;
+    left: 5px;
+    top: 7px;
+    transition: transform .5s ease, opacity .5s ease, background-color .5s ease;
+}
+
+.burger__buttons:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+}
+
+.burger__buttons:nth-child(2) {
+    transform: translateY(10px);
+    opacity: 0;
+}
+
+.burger__buttons:nth-child(3) {
+    transform: translateY(10px) rotate(-45deg);
+}
+
+.header.open .burger__buttons:nth-child(1) {
+    transform: translateY(0) rotate(0deg);
+}
+.header.open .burger__buttons:nth-child(2) {
+    transform: translateY(10px);
+    opacity: 1;
+}
+.header.open .burger__buttons:nth-child(3) {
+    transform: translateY(20px);
+}
+
+.header.open .header__burger-button {
+    background:#FFF;
+}
+
+.header.open .burger__buttons {
+    background:#000
+}
