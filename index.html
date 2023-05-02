@@ -11,7 +11,11 @@
         <link rel="stylesheet" href="styles/zero.css">
         <link rel="stylesheet" href="styles/logo.css">
         <link rel="stylesheet" href="styles/buttonOrange.css">
+        <link rel="stylesheet" href="styles/buttonPurple.css">
         <link rel="stylesheet" href="styles/mobile.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/mobile__main.css">
+
 
         <script src="js/burger.js"></script>
 
@@ -24,24 +28,36 @@
     </head>
 
     <body>
-        <div class="container">
-            <header class="header open">
-                <div class="header__burger-button" id="burger">
-                    <span class="burger__buttons"></span>
-                    <span class="burger__buttons"></span>
-                    <span class="burger__buttons"></span>
-                </div>
-                <div class="logo"><a href="#" class="log__link"><img class="logo__image" src="Logo.svg" alt="Logo"></a></div>
-                <ul class="up">
-                    <li class="types"><a href="#" class="links">Home</a></li>
-                    <li class="types"><a href="#" class="links">Features</a></li>
-                    <li class="types"><a href="#" class="links">Pricing</a></li>
-                    <li class="types"><a href="#" class="links">Blog</a></li>
-                </ul>
+        <header class="header open">
+            <div class="header__burger-button" id="burger">
+                <span class="burger__buttons"></span>
+                <span class="burger__buttons"></span>
+                <span class="burger__buttons"></span>
+            </div>
+            <div class="logo"><a href="#" class="log__link"><img class="logo__image" src="images/Logo.svg" alt="Logo"></a>
+            </div>
+            <ul class="up">
+                <li class="types"><a href="#" class="links">Home</a></li>
+                <li class="types"><a href="#" class="links">Features</a></li>
+                <li class="types"><a href="#" class="links">Pricing</a></li>
+                <li class="types"><a href="#" class="links">Blog</a></li>
+            </ul>
 
-                <button class="button__orange">Get Started</button>
-            </header>
+            <button class="button__orange">Get Started</button>
+        </header>
+
+        <main class="main">
+            <div class="block__first">
+            <article class="article__first">
+                <p class="first__block-bold">Grow your subcription business</p>
+                <div class="position__types-block"><p class="first__block-middle">Outcome-centered products that reduce churn, optimize pricing, and grow
+                    your subscription business end-to-end.</p></div>
+                <div class="position__types-block"><button class="button__purple">Get Started</button></div>
+                </article>
+
+            <div class="first__image"><img src="images/personSkate.svg" alt="personOnSkate"></div>
         </div>
+        </main>
     </body>
 
 </html>
