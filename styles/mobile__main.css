@@ -1,0 +1,28 @@
+@media (max-width:1000px) {
+
+.block__first {
+    grid-template-columns: calc(300px + 160 * (100vw / 1440));
+    gap: 60px;
+    width: max-content;
+    margin-left: 0;
+    gap: 30px;
+}
+
+.article__first {
+    margin-left: 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.position__types-block {
+    justify-content: center;
+}
+
+.first__image {
+margin-left: 20%;
+display: flex;
+justify-content: center;
+align-items:center;
+}
+
+}
