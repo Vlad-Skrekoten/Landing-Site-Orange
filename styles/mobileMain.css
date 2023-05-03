@@ -48,7 +48,16 @@
         padding: 5%;
     }
 
-    .block__second,
+    .block__second {
+        margin-top: 30px;
+        grid-template-columns: calc(300px + 160 * (100vw / 1440));
+        width: max-content;
+        margin-left: 0;
+        gap: 50px;
+        text-align: center;
+        justify-items: center;
+    }
+
     .block__third {
         margin-top: 30px;
         grid-template-columns: calc(300px + 160 * (100vw / 1440));
@@ -59,7 +68,11 @@
         justify-items: center;
     }
 
-    .article__second, .article__third {
+    .article__second {
+        justify-items: center;
+    }
+
+    .article__third {
         justify-items: center;
     }
 
