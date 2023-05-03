@@ -1,4 +1,4 @@
-@media (max-width:1000px) {
+@media (max-width:800px) {
 
 .block__first {
     grid-template-columns: calc(300px + 160 * (100vw / 1440));
@@ -23,6 +23,10 @@ margin-left: 20%;
 display: flex;
 justify-content: center;
 align-items:center;
+}
+
+.button__round {
+    display: none;
 }
 
 }
