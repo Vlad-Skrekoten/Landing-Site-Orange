@@ -65,7 +65,6 @@
         margin-left: 0;
         gap: 30px;
         text-align: center;
-        justify-items: center;
     }
 
     .article__second {
@@ -87,4 +86,22 @@
         transform: scale(0.8);
     } 
 
+    .block__fourth {
+        /* grid-template-columns: auto; */
+        margin-top: 50px;
+        border-radius:10px;
+    }
+
+    .first__icon-text {
+        display: none;
+    }
+
+    .second__icon-text {
+        display: none;
+    }
+
+    .card {
+        width: 90%;
+        height: 90%;
+    }
 }
