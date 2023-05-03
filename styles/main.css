@@ -99,10 +99,6 @@ img {
     gap: 30px;
 }
 
-.article__third {
-    margin-left: 10%;
-}
-
 .second__block-bold {
     font-size: calc(20px + 40 * (100vw / 1440));
     font-weight: 700;
