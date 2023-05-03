@@ -147,5 +147,32 @@ img {
 
 .link__block-third:hover {
     color: #FF7143;
+}
 
+.block__fourth {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    text-align: center;
+}
+.first__icon-text {
+    font-size: 24px;
+    font-weight: 700;
+    transition: color .2s ease;
+}
+
+.second__icon-text {
+    margin-top: 20px;
+    font-weight: 400;
+    width: 300px;
+    transition: color .2s ease;
+}
+
+.icon {
+    transition: color .2s ease;
+}
+
+.icon:hover {
+    color:#5454D4;
 }
