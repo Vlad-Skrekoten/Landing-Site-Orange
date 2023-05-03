@@ -1,4 +1,4 @@
-@media (max-width:1000px) {
+@media (max-width:900px) {
     .button__orange {
         display: none;
     }
@@ -8,16 +8,18 @@
         right: 0;
         top: 0;
         width: 100vw;
+        height: 350px;
         background: #000;
         display: block;
         padding-top: 100px;
         transition: transform .5s ease;
+        z-index: 2;
     }
 
     .header__burger-button {
         display: block;
         margin-left: 5%;
-        z-index: 1;
+        z-index: 3;
     }
 
     .links {
