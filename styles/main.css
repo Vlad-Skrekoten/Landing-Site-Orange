@@ -22,6 +22,7 @@
     display: grid;
     grid-template-columns: repeat(1 1fr);
     gap: 30px;
+    margin-left: 10%;
 }
 
 .position__types-block {
@@ -83,12 +84,13 @@ img {
     margin-top: 80px;
 }
 
-.article__third {
+.article__second {
     width: calc(400px + 160 * (100vw / 1440));
     display: grid;
     grid-template-columns: 1fr;
     justify-items: start;
     gap: 30px;
+    margin-left: 10%;
 }
 
 .article__third {
@@ -97,6 +99,7 @@ img {
     grid-template-columns: 1fr;
     justify-items: start;
     gap: 30px;
+    margin-left: 10%;
 }
 
 .second__block-bold {
