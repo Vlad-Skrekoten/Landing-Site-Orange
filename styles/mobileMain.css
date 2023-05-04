@@ -133,4 +133,8 @@
         display: grid;
         gap: 30px;
     }
+
+    .sixth__card {
+        width:300px
+    }
 }
