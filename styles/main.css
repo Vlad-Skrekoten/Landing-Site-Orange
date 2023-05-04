@@ -226,6 +226,7 @@ img {
     color: #FFF;
 }
 
+.fifth__button-two:focus,
 .fifth__button-two:hover {
     background-color: #FF7143;
     color: #FFF;
@@ -286,7 +287,7 @@ img {
     background: #FFFFFF;
     border: none;
     border-radius: 10px;
-    width: calc(150px + 135 * (100vw / 1440));
+    width: calc(100px + 135 * (100vw / 1440));
     height: 60px;
     font-size: 17px;
     color: #5454D4;
