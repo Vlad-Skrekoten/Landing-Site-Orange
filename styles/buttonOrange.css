@@ -3,26 +3,22 @@
     color: #FFF;
     border: none;
     border-radius: 10px;
-    /* width: 180px; */
     height: 50px;
     width: calc(100px + 80 * (100vw / 1440));
     height: calc(30px + 20 * (100vh / 800));
-    /* font-size: 17px; */
     font-size: calc(10px + 7 * (100vw / 1440));
-    transition: color .2s ease;
+    transition: background-color .2s ease, transform .2s ease;
     font-weight: 500;
     z-index: 1;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     cursor: pointer;
 }
 
-
-
-.button__orange:hover {
-    background: #5454D4;
-    color: #000;
+.button__orange:active {
+    transform: scale(0.9);
 }
 
-.button__orange:active {
+.button__orange:hover, .button__orange:focus {
+    background: #5454D4;
     color: #FFF;
 }
