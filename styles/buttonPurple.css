@@ -10,17 +10,16 @@
     width: calc(100px + 80 * (100vw / 1440));
     height: calc(30px + 20 * (100vh / 800));
     font-size: calc(10px + 7 * (100vw / 1440));
-    transition: color .2s ease;
+    transition: background-color .2s ease, transform .2s ease;
     font-weight: 500;
     cursor: pointer;
 }
 
-.button__purple:hover {
+.button__purple:hover, .button__purple:focus {
     background: #FF7143;
-    ;
-    color: #000;
+    color: #FFF;
 }
 
 .button__purple:active {
-    color: #FFF;
+    transform: scale(0.9);
 }
