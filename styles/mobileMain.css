@@ -104,4 +104,16 @@
         width: 90%;
         height: 90%;
     }
+
+    .block__fifth {
+        margin-top: 30px;
+        text-align: center;
+        display: grid;
+        justify-items: center;
+        gap: 30px;
+    }
+
+    .fifth__block-text {
+        width:calc(300px + 80 *(100vw/1440));
+    }
 }

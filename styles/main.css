@@ -164,7 +164,8 @@ img {
 
 .second__icon-text {
     margin-top: 20px;
-    font-weight: 400;
+    font-weight: 500;
+    color: #696871;
     width: 300px;
     transition: color .2s ease;
 }
@@ -176,3 +177,52 @@ img {
 .icon:hover {
     color:#5454D4;
 }
+
+.block__fifth{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around ;
+    align-items:center;
+}
+
+.fifth__block-text{
+    font-size: calc(20px + 40 * (100vw / 1440));
+    font-weight: 700;
+    width:calc(450px + 80 *(100vw/1440));
+    margin-right: 10%;
+}
+
+.fifth__button-one, .fifth__button-two {
+    border: none;
+    width: calc(130px + 30 * (100vw / 1440));
+    height:55px;
+    transition: background-color .2s ease;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1.5;
+    color:#696871;
+}
+
+.fifth__button-two {
+    border-top-right-radius:1em ;
+    border-bottom-right-radius:1em ;
+}
+
+.fifth__button-two {
+    transform: translateX(-10px);
+}
+
+.fifth__button-one{
+    border-top-left-radius:1em ;
+    border-bottom-left-radius:1em ;
+}
+
+    .fifth__button-one:focus, .fifth__button-one:hover {
+    background-color: #5454D4;
+    color:#FFF;
+}
+
+    .fifth__button-two:focus, .fifth__button-two:hover {
+        background-color: #FF7143;
+        color:#FFF;
+    }
