@@ -226,8 +226,12 @@ img {
     color: #FFF;
 }
 
-.fifth__button-two:focus,
 .fifth__button-two:hover {
+    background-color: #FF7143;
+    color: #FFF;
+}
+
+.fifth__button-two:focus {
     background-color: #FF7143;
     color: #FFF;
 }
