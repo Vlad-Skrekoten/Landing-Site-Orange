@@ -241,7 +241,7 @@ img {
     margin-top: 85px;
     display: flex;
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
     width: 100%;
 }
 
@@ -258,7 +258,7 @@ img {
 
 .sixth__card:hover {
     background: #FF7143;
-    color:#FFF;
+    color: #FFF;
 }
 
 .sixth__text-one {
@@ -275,7 +275,7 @@ img {
 
 .sixth__text-three {
     font-size: 17px;
-    width:calc(100px + 60 * (100vw / 1440));
+    width: calc(100px + 60 * (100vw / 1440));
     text-align: center;
 }
 
@@ -283,6 +283,7 @@ img {
     content: "/month";
     font-size: 28px;
 }
+
 .sixth__button {
     background: #FFFFFF;
     border: none;
@@ -292,17 +293,18 @@ img {
     font-size: 17px;
     color: #5454D4;
     font-weight: 700;
-    transition: background-color .3s ease,color .3s ease ,transform .2s ease;
+    transition: background-color .3s ease, color .3s ease, transform .2s ease;
 }
 
 .sixth__button:hover {
     background: #1D293F;
-    color:#FFF;
+    color: #FFF;
 }
 
-.sixth__button:focus, .sixth__button:active {
+.sixth__button:focus,
+.sixth__button:active {
     background: #1D293F;
-    color:#FFF;
+    color: #FFF;
 }
 
 .sixth__button:active {
