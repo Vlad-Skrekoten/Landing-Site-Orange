@@ -1,4 +1,4 @@
-# Landing-Page-Orange
+# Landing-Site-Orange
 Верстка простого сайту на основі html, css і трохи js
 
 ## Example from Figma
