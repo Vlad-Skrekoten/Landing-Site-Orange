@@ -1,7 +1,7 @@
-#Landing-Page-Orange
+# Landing-Page-Orange
 
 
-##Example from Figma
+## Example from Figma
 
 https://vlad-skrekoten.github.io/Landing-Site-Orange/
 
