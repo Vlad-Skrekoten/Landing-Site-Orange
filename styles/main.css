@@ -86,7 +86,7 @@ img {
 }
 
 .article__second {
-    width: calc(400px + 160 * (100vw / 1440));
+    width: calc(300px + 160 * (100vw / 1440));
     display: grid;
     grid-template-columns: 1fr;
     justify-items: start;
@@ -95,7 +95,7 @@ img {
 }
 
 .article__third {
-    width: calc(400px + 160 * (100vw / 1440));
+    width: calc(300px + 160 * (100vw / 1440));
     display: grid;
     grid-template-columns: 1fr;
     justify-items: start;
